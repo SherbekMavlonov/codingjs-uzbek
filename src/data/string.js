@@ -14,7 +14,7 @@ module.exports = [
       "('xyz!')",
       "('Hello!')",
     ],
-    question: 'Satr nomi berilgan, masalan: "Bob", "Salom Bob!" shaklidagi satrni qaytaring.',
+    question: 'Satr nomi berilgan, masalan: "Bob", "Hello Bob!" shaklidagi satrni qaytaring.',
   }, {
     title: 'String-1',
     name: 'makeAbba',
@@ -64,7 +64,7 @@ module.exports = [
       "('Candy')",
       "('Code')",
     ],
-    question: `Satr berilgan, asl satrning oxirgi 2 ta belgisidan 3 nusxadan iborat yangi satr qaytaring. Satr uzunligi kamida 2 bo'ladi.`,
+    question: `Satr berilgan, asl satrning oxirgi 2 ta belgisidan 3 nusxadan iborat yangi satr qaytaring. Satr uzunligi kamida 2 ta belgidan iborat bo'ladi.`,
   }, {
     title: 'String-1',
     name: 'firstTwo',
@@ -78,7 +78,7 @@ module.exports = [
       "('hi')",
       "('hiya')",
     ],
-    question: `Satr berilgan, uning dastlabki ikkita belgisidan tuzilgan yangi satrni qaytaring, shu tarizda "Salom" qatori "U" ni beradi. Agar satr uzunligi 2 dan qisqa bo'lsa, unda nima bo'lsa, shuni qaytaring, shuning uchun "X" qatori "X" ni beradi va "" bo'sh qator "" bo'sh qatorni beradi. E'tibor bering, str.length() satr uzunligini qaytaradi.`,
+    question: `Satr berilgan, uning dastlabki ikkita belgisidan tuzilgan yangi satrni qaytaring, shu tarizda "Hello" qatori "He" ni beradi. Agar satr uzunligi 2 dan qisqa bo'lsa, unda nima bo'lsa, shuni qaytaring, shuning uchun "X" qatori "X" ni beradi va "" bo'sh qator "" bo'sh qatorni beradi. E'tibor bering, str.length() satr uzunligini qaytaradi.`,
   }, {
     title: 'String-1',
     name: 'firstHalf',
@@ -91,7 +91,7 @@ module.exports = [
       "('0123456789')",
       "('kitten')",
     ],
-    question: 'Bir tekis uzunlikdagi berilgan, shuning birinchi yarmini qaytaring. Masalan: "WooHoo" qatori "Woo" ni beradi..',
+    question: 'Bir tekis uzunlikdagi satr berilgan, shuning birinchi yarmini qaytaring. Masalan: "WooHoo" qatori "Woo" ni beradi..',
   }, {
     title: 'String-1',
     name: 'withoutEnd',
@@ -105,7 +105,7 @@ module.exports = [
       "('kitten')",
       "('woohoo')",
     ],
-    question: `Satr berilgan, birinchi va oxirgi belgisiz versiyasini qaytaring, shuning uchun "Hello" matni "ell" ni beradi. Satr uzunligi kamida 2 ta belgidan iborat bo'ladi`,
+    question: `Satr berilgan, birinchi va oxirgi belgisiz versiyasini qaytaring, shuning uchun "Hello" matni "ell" ni beradi. Satr uzunligi kamida 2 ta belgidan iborat bo'ladi.`,
   }, {
     title: 'String-1',
     name: 'comboString',
