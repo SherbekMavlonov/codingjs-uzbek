@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>JS Reference</title>
+  <style media="screen">
+    section {
+      position: relative;
+      color: #FFF;
+      padding: 20px;
+      margin: 20px auto;
+    }
+
+    @media only screen and (min-width: 992px) {
+      section {
+        font-size: 0.75em;
+        -webkit-columns: 3 350px;
+        -moz-columns: 350px;
+        columns: 3 350px;
+        -webkit-column-gap: 2em;
+        -moz-column-gap: 2em;
+        column-gap: 2em;
+        position: relative;
+        color: #FFF;
+        padding: 20px;
+        margin: 20px auto;
+      }
+    }
+
+    div {
+      -webkit-column-break-inside: avoid;
+      page-break-inside: avoid;
+      break-inside: avoid;
+    }
+
+    pre {
+      padding: 1em;
+      font-size: 0.8em;
+      background-color: #EEEEEE;
+      color: #000;
+    }
+
+
+
+    table.minimalistBlack {
+      border: 3px solid #FFFFFF;
+      background-color: #EEEEEE;
+      width: 100%;
+      text-align: left;
+      border-collapse: collapse;
+    }
+
+    table.minimalistBlack td,
+    table.minimalistBlack th {
+      border: 1px solid #FFFFFF;
+      padding: 5px 4px;
+      color: #000;
+    }
+
+    table.minimalistBlack thead {
+      background: #CFCFCF;
+      background: -moz-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+      background: -webkit-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+      background: linear-gradient(to bottom, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+      border-bottom: 3px solid #FFFFFF;
+    }
+
+    table.minimalistBlack thead th {
+      font-weight: bold;
+      color: #000000;
+      text-align: left;
+    }
+  </style>
+</head>
+
+<body>
+  <section id="mainContent">
+
+    <div>
+      <h2>Funksiyalar</h2>
+      <p>Ushbu mashqlarni yechish uchun doim javobni qaytaring! (<code>return</code>)</p>
+      <pre><code>function yigindi(birinchiSon, ikkinchiSon) {
+  let natija = birinchiSon + ikkinchiSon;
+  return natija;
+}</code></pre>
+    </div>
+
+    <div>
+      <h2>Mantiqiy operatorlar</h2>
+
+      <table class="minimalistBlack">
+        <thead>
+          <tr>
+            <th>Belgi</th>
+            <th>Ma'nosi</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>===</code></td>
+            <td>aynan teng</td>
+          </tr>
+          <tr>
+            <td><code>!==</code></td>
+            <td>teng emas</td>
+          </tr>
+          <tr>
+            <td><code>=</code></td>
+            <td>tenglash</td>
+          </tr>
+          <tr>
+            <td><code>+=</code></td>
+            <td>qo'shish yoki birlashtirish</td>
+          </tr>
+          <tr>
+            <td><code>-=</code></td>
+            <td>olib tashlash</td>
+          </tr>
+          <tr>
+            <td><code>*</code></td>
+            <td>ko'paytirish</td>
+          </tr>
+          <tr>
+            <td><code>/</code></td>
+            <td>bo'lish</td>
+          </tr>
+          <tr>
+            <td><code>%</code></td>
+            <td>qoldiq (modul)</td>
+          </tr>
+          <tr>
+            <td><code>></code></td>
+            <td>kattaroq</td>
+          </tr>
+          <tr>
+            <td><code>>=</code></td>
+            <td>katta yoki teng</td>
+          </tr>
+          <tr>
+            <td><code><</code></td>
+            <td>kichik</td>
+          </tr>
+          <tr>
+            <td><code><=</code></td>
+            <td>kichik yoki teng</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+
+    <div>
+      <h2>Mantiqiy operatorlar</h3>
+
+        <table class="minimalistBlack">
+          <thead>
+            <tr>
+              <th>Belgi</th>
+              <th>Ma'nosi</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>!</code></td>
+              <td>inkor</td>
+            </tr>
+            <tr>
+              <td><code>&&</code></td>
+              <td>va</td>
+            </tr>
+            <tr>
+              <td><code>||</code></td>
+              <td>yoki</td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+
+    <div>
+      <h2>If / Else If / Else shart operatori</h2>
+      <pre><code>let qandaydirRaqam = prompt("Raqam kiriting");
+
+if (qandaydirRaqam < 42) {
+  // nimadir
+}
+else if (qandaydirRaqam === 42) {
+  // boshqa nimadir
+}
+else {
+  // boshqa standart harakat
+}</code></pre>
+
+    </div>
+
+    <div>
+      <h2>While takrorlash operatori</h2>
+      <pre><code>let son = 0;
+while (son < 5) {
+  console.log(son);
+  son = son + 1;
+}
+
+// 0
+// 1
+// 2
+// 3
+// 4</code></pre>
+    </div>
+
+    <div>
+      <h2>For takrorlash operatori</h2>
+      <pre><code>for (let raqam = 5; raqam > 0; raqam -= 1) {
+  console.log(raqam);
+}
+
+// 5
+// 4
+// 3
+// 2
+// 1</code></pre>
+    </div>
+
+    <div>
+      <h2>Massivlar</h2>
+      <pre><code>let raqamlar = [42, 13, 78];
+raqamlar[0];  // 42
+raqamlar[2];  // 78
+raqamlar.length;  // 3
+
+raqamlar.push(99);
+// raqamlar = [42, 13, 78, 99]
+
+let oxirgi = raqamlar.pop();
+// oxirgi = 99 | raqamlar = [42, 13, 78]
+
+let boshidagi = raqamlar.shift();
+// boshidagi = 42 | raqamlar = [13, 78]
+
+raqamlar.unshift(55);
+// raqamlar = [55, 13, 78]
+</code></pre>
+    </div>
+
+    <div>
+      <h2>Matematik funktsiyalar</h2>
+      <pre><code>let engYaqinButunSon = Math.round(1.55);
+// engYaqinButunSon = 2
+
+let engYaqinKichikSon = Math.floor(1.55);
+// engYaqinKichikSon = 1
+
+let engYuqoriSon = Math.ceil(1.2);
+// engYuqoriSon = 2
+      </code></pre>
+    </div>
+
+  </section>
+</body>
+
+</html>
