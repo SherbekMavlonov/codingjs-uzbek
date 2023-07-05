@@ -60,7 +60,7 @@ body {
 }
 
 a {
-  color: rgb(5, 230, 99);
+  /* color: rgb(5, 230, 99); */
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
 }
@@ -69,8 +69,12 @@ a:hover {
   border-bottom: 1px solid black;
 }
 
-a:visited:hover {
-  border-bottom: 1px solid rgb(5, 230, 99);
+a:active {
+  color: #000;
+}
+
+a:visited {
+  color: #000;
 }
 
 a:link {
