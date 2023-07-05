@@ -70,11 +70,11 @@ a:hover {
 }
 
 a:active {
-  color: #000;
+  color: #333;
 }
 
 a:visited {
-  color: #000;
+  color: #333;
 }
 
 a:link {

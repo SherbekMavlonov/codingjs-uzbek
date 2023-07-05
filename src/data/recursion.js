@@ -225,7 +225,7 @@ module.exports = [
     ]
   },
   {
-    question: 'Given a string, compute recursively a new string where all the \'x\' chars have been removed.',
+    question: "Satr berilgan, barcha 'x' belgilari o'chirilgan yangi satrni qaytaring (rekursiv).",
     title: 'Recursion-1',
     name: 'noX',
     inputs: [
@@ -238,7 +238,7 @@ module.exports = [
     ]
   },
   {
-    question: 'Given an array of ints, compute recursively if the array contains a 6. We\'ll use the convention of considering only the part of the array that begins at the given index. In this way, a recursive call can pass index+1 to move down the array. The initial call will pass in index as 0.',
+    question: "Ints massivi berilgan, agar massivda 6 bo'lsa, true qaytaring aks holda false. Biz massivning faqat berilgan indeksdan boshlab ko'rib chiqamiz. (rekursiv)",
     title: 'Recursion-1',
     name: 'array6',
     inputs: [
@@ -253,7 +253,7 @@ module.exports = [
     ]
   },
   {
-    question: 'Given an array of ints, compute recursively the number of times that the value 11 appears in the array. We\'ll use the convention of considering only the part of the array that begins at the given index. In this way, a recursive call can pass index+1 to move down the array. The initial call will pass in index as 0.',
+    question: "Ints massivi berilgan, 11 qiymati massivda necha marta paydo bo'lishini rekursiv hisoblang. Biz faqat massivning berilgan indeksdan boshlanadigan qismini hisobga olamiz.",
     title: 'Recursion-1',
     name: 'array11',
     inputs: [
@@ -269,7 +269,7 @@ module.exports = [
     ]
   },
   {
-    question: 'Given an array of ints, compute recursively if the array contains somewhere a value followed in the array by that value times 10. We\'ll use the convention of considering only the part of the array that begins at the given index. In this way, a recursive call can pass index+1 to move down the array. The initial call will pass in index as 0.',
+    question: "Ints massivini hisobga olgan holda, agar massivda massivning biror qiymatidan keyin 10 ga ko'paytirilgan holatidagi qiymat kelsa, true qaytaring aks holda false. Biz massivning faqat berilgan indeksdan boshlanadigan qismini ko'rib chiqamiz.",
     title: 'Recursion-1',
     name: 'array220',
     inputs: [
@@ -290,7 +290,7 @@ module.exports = [
     ]
   },
   {
-    question: 'Given a string, compute recursively a new string where all the adjacent chars are now separated by a "*".',
+    question: "Satr berilgan, barcha qo'shni belgilari '*' bilan ajratilgan yangi qatorni rekursiv ravishda qaytaring.",
     title: 'Recursion-1',
     name: 'allStar',
     inputs: [
@@ -305,7 +305,7 @@ module.exports = [
     ]
   },
   {
-    question: 'Given a string, compute recursively a new string where identical chars that are adjacent in the original string are separated from each other by a "*".',
+    question: "Satr berilgan, asl satrda qo'shni bo'lgan bir xil belgilar bir-biridan \"*\" belgisi bilan ajratilgan yangi satrni qaytaring (rekursiv).",
     title: 'Recursion-1',
     name: 'pairStar',
     inputs: [
@@ -322,7 +322,7 @@ module.exports = [
     ]
   },
   {
-    question: 'Given a string, compute recursively a new string where all the lowercase \'x\' chars have been moved to the end of the string.',
+    question: "Satr berilgan, barcha kichik \"x\" belgilar satr oxiriga ko'chirilgan yangi qatorni rekursiv ravishda qaytaring.",
     title: 'Recursion-1',
     name: 'endX',
     inputs: [
@@ -341,7 +341,7 @@ module.exports = [
     ]
   },
   {
-    question: 'We\'ll say that a "pair" in a string is two instances of a char separated by a char. So "AxA" the A\'s make a pair. Pair\'s can overlap, so "AxAxA" contains 3 pairs -- 2 for A and 1 for x. Recursively compute the number of pairs in the given string.',
+    question: 'Satrda bitta harf bilan ajratilgan 2 ta bir xil harfni "Juftlik" deb ataymiz. Shunday qilib, "AxA" A juftligini hosil qiladi. Juftliklar bir-biriga mos kelishi mumkin, shuning uchun "AxAxA" 3 juftni o\'z ichiga oladi - A uchun 2 ta va x uchun 1 ta. Berilgan qatordagi juftlar sonini rekursiv hisoblang.',
     title: 'Recursion-1',
     name: 'countPairs',
     inputs: [
@@ -359,7 +359,7 @@ module.exports = [
     ]
   },
   {
-    question: 'Count recursively the total number of "abc" and "aba" substrings that appear in the given string.',
+    question: 'Berilgan satrda paydo bo\'ladigan "abc" va "aba" satrlarining umumiy sonini rekursiv hisoblang.',
     title: 'Recursion-1',
     name: 'countAbc',
     inputs: [
@@ -378,7 +378,7 @@ module.exports = [
     ]
   },
   {
-    question: 'Given a string, compute recursively (no loops) the number of "11" substrings in the string. The "11" substrings should not overlap.',
+    question: 'Satr berilgan, satrdagi "11" lar sonini rekursiv(looplarsiz) hisoblang. "11" lar takrorlanmasligi kerak ya\'ni "111" -> da bitta "11" mavjud, (javob: 1).',
     title: 'Recursion-1',
     name: 'count11',
     inputs: [
@@ -396,7 +396,7 @@ module.exports = [
     ]
   },
   {
-    question: 'Given a string, return recursively a "cleaned" string where adjacent chars that are the same have been reduced to a single char. So "yyzzza" yields "yza".',
+    question: 'Satr berilgan, bir xil bo\'lgan qo\'shni belgilar bitta belgiga qisqartirilgan "tozalangan" qatorni rekursiv ravishda qaytaring. Shunday qilib, "yyzzza" -> "yza" ni beradi.',
     title: 'Recursion-1',
     name: 'stringClean',
     inputs: [
@@ -409,7 +409,7 @@ module.exports = [
     ]
   },
   {
-    question: 'Given a string, compute recursively the number of times lowercase "hi" appears in the string, however do not count "hi" that have an \'x\' immedately before them.',
+    question: 'Satr berilgan, "hi" kichik harflari qatorda necha marta takrorlanishini rekursiv ravishda hisoblang, biroq ularning oldida "x" belgisi bo\'lgan "hi" ni hisoblamang.',
     title: 'Recursion-1',
     name: 'countHi2',
     inputs: [
@@ -432,7 +432,7 @@ module.exports = [
     ]
   },
   {
-    question: 'This question is modified from parenBit on CodingBat to starBit. Given a string that contains a dash and a star, compute recursively a new string made of only of the dash and star and their contents, so "xyz-abc*123" yields "-abc*".',
+    question: 'Tire(-) va yulduzchani(*) o\'z ichiga olgan qatorni hisobga olsak, faqat tire va yulduz va ularning ichida joylashgan belgilardan iborat yangi qatorni rekursiv hisoblang, shuning uchun "xyz-abc*123" -> "-abc*" ni hosil qiladi.',
     title: 'Recursion-1',
     name: 'starBit',
     inputs: [
@@ -451,7 +451,7 @@ module.exports = [
     ]
   },
   {
-    question: 'Given a string, return true if it is a nesting of zero or more pairs of parenthesis, like "(())" or "((()))". Suggestion: check the first and last chars, and then recur on what\'s inside them.',
+    question: 'Satr berilgan, "(())" yoki "((()))" kabi nol yoki undan ko\'p qavslar juftligiga ega bo\'lsa, true qiymatini qaytaring. Taklif: birinchi va oxirgi belgilarni tekshiring va keyin ularning ichida nima borligini takrorlang.',
     title: 'Recursion-1',
     name: 'nestParen',
     inputs: [
@@ -473,7 +473,7 @@ module.exports = [
     ]
   },
   {
-    question: 'Given a string and a non-empty substring sub, compute recursively the number of times that sub appears in the string, without the sub strings overlapping.',
+    question: 'Satr va boʻsh boʻlmagan qator berilgan, satrlar bir-biriga oʻxshamasdan satrda qancha marta paydo boʻlishini rekursiv hisoblang. ("iiiijj", "ii") -> 2 ni beradi.',
     title: 'Recursion-1',
     name: 'strCount',
     inputs: [
@@ -494,7 +494,7 @@ module.exports = [
     ]
   },
   {
-    question: 'Given a string and a non-empty substring sub, compute recursively if at least n copies of sub appear in the string somewhere, possibly with overlapping. N will be non-negative.',
+    question: 'Satr va boʻsh boʻlmagan qator berilgan, agar satrning biror joyda, ehtimol, bir-birining ustiga chiqqan holda, kamida n ta nusxasi paydo boʻlsa true qaytaring (rekursiv) N manfiy bo\'lmaydi.',
     title: 'Recursion-1',
     name: 'strCopies',
     inputs: [
@@ -515,7 +515,7 @@ module.exports = [
     ]
   },
   {
-    question: 'Given a string and a non-empty substring sub, compute recursively the largest substring which starts and ends with sub and return its length.',
+    question: "Satr va bo'sh bo'lmagan qator berilgan, 'sub' parametri bilan boshlanadigan va tugaydigan eng katta qatorni rekursiv tarzda hisoblang va uning uzunligini qaytaring.",
     title: 'Recursion-1',
     name: 'strDist',
     inputs: [
